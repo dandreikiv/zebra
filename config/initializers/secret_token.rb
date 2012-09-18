@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Weblog::Application.config.secret_token = 'd89d753a6264bde7b1455c31e5b514f0a2b9548dc8bb9d10b94522e0bda9fcb50ddc0c50d3335ff58823cd352ce1d9bc9ee496fcc9a6d93b5f712e1a9bd3f560'
+Zebra::Application.config.secret_token = '9ea179eb6f1dabb29f153910e9589ce310c27760eeb241c9874e5cbaa7ae2b06c9b9971a2cceb3ff59b973a7d4dc37fc40f3b82a83447a982f91e6141a6f2421'

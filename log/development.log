@@ -120,6 +120,7 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-21 12:52:42
 Served asset /application.js - 200 OK (6ms)
 
 
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2012-09-21 21:16:52 +0200
 Connecting to database specified by database.yml
 Processing by HomeController#index as HTML
@@ -3715,3 +3716,65 @@ Migrating to CreateCategories (20121003051607)
   [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("categories")[0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("posts")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("videos")[0m
+=======
+Started GET "/" for 127.0.0.1 at 2012-09-24 13:43:18 +0200
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 13:43:18 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 13:43:18 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-24 13:43:18 +0200
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 13:43:20 +0200
+Connecting to database specified by database.yml
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 13:43:20 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-24 13:43:20 +0200
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-24 13:44:06 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 13:44:06 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-24 13:44:06 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 13:44:06 +0200
+Served asset /home.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-24 13:44:07 +0200
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 13:44:07 +0200
+Served asset /application.js - 304 Not Modified (35ms)
+Served asset /jquery.js - 304 Not Modified (60ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 13:44:07 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+>>>>>>> a476d87697a15f154c34d6d824bc7b0a29c22f68

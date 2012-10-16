@@ -1,0 +1,9 @@
+
+<% @videos.each do |video| %>
+<div class = "lightbox">
+	<!--<%= link_to video.url, video %>-->
+
+<iframe width="200" height="200" src=<%="" + video.url + "" %> frameborder="0" allowfullscreen></iframe>
+
+</div>
+<% end %>

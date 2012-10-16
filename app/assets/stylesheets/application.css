@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
  */
+
+
+#header {
+	height:40px;
+	background-color:#000000;
+}
+
+#footer {
+	height:50px;
+	background-color:#000000;
+	font-size:12pt;
+	color:#ffffff;
+}

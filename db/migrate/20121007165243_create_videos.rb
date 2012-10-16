@@ -1,14 +1,15 @@
 class CreateVideos < ActiveRecord::Migration
   def change
     create_table :videos do |t|
-      t.text :url
+      t.string :url
       t.text :description
-      t.integer :rating
-      t.string :tag
+      t.text :title
+      t.integer :rate
+      t.decimal :duration
+      t.text :author
+      t.timestamp :upload_date
 
       t.timestamps
-      
-      t.belongs_to :category
     end
   end
 end

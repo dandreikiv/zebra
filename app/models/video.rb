@@ -1,4 +1,4 @@
 class Video < ActiveRecord::Base
-  attr_accessible :description, :rating, :tag, :url
+  attr_accessible :author, :description, :duration, :rate, :title, :upload_date, :url
   belongs_to :category
 end
